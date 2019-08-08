@@ -1,0 +1,17 @@
+---
+title: Chip
+subTitle: Compact elements that represent an input, attribute, or action.
+component: Chip
+---
+export const StatefulChip = () => {
+    return <Chip />;
+}
+
+<Chip mr={1} text="Restaurants"/>
+
+### Example (bug: chips below not showing up)
+<StatefulChip mr={1} text="Restaurants" />
+<StatefulChip mr={1} text="Near Me" />
+<StatefulChip text="Open Now" />
+
+
